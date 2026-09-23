@@ -10,4 +10,4 @@ Seetõttu ei valinud me ei spiraalset ega kosemudel.
 
 # Inkrementaalne
 
-Otsustasime luua ekraane järk-järgult, kuna projektil on selged eesmärgid.
+Otsustasime luua ekraane inkrementaalne, kuna projektil on selged eesmärgid.
