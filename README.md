@@ -6,3 +6,8 @@ Valisime inkrementaalse mudeli, sest teame, mida kasutajad täpselt tahavad, nin
 Samuti ei ole projekt suur ega nõua suuri kulutusi.
 Projekt ei kavatse lõputult laieneda.
 Seetõttu ei valinud me ei spiraalset ega kosemudel.
+
+
+# Inkrementaalne
+
+Otsustasime luua ekraane järk-järgult, kuna projektil on selged eesmärgid.
