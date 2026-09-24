@@ -27,8 +27,8 @@ tähtsamad on märgitud `must`.
 Me teeksime seda inkrementaalselt, sest teame, mida kasutajad täpselt tahavad, ning kõik projekti osad on arusaadavad ja igaüks neist täidab kindlat eesmärki. Samuti ei ole projekt suur ega nõua suuri kulutusi. Projekt ei kavatse lõputult laieneda. Seetõttu ei valinud me ei spiraalset ega kosemudel.
 
 ## Diagrammid
-![Kasutusjuhud]((diagrammid/Kasutusjuhtude_diagramm.png)
-![Klassid]((diagrammid/Klassidiagramm.png)
+![Kasutusjuhud](diagrammid/Kasutusjuhtude_diagramm.png)
+![Klassid](diagrammid/Klassidiagramm.png)
 
 ## Makett
 Valisime inkrementaalse mudeli, sest teame, mida kasutajad täpselt tahavad, ning kõik projekti osad on arusaadavad ja igaüks neist täidab kindlat eesmärki. Samuti ei ole projekt suur ega nõua suuri kulutusi. Projekt ei kavatse lõputult laieneda. Seetõttu ei valinud me ei spiraalset ega kosemudel.
