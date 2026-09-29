@@ -41,7 +41,7 @@ Valisime inkrementaalse mudeli, sest teame, mida kasutajad täpselt tahavad, nin
 ## Kuidas me töötasime
 Tahvel alguses ja lõpus: `protsess/board-start.png ja protsess/board-end.png `. Ekraani paigutuse väljamõtlemine oli keeruline. Probleemid, mis olid märgitud kui "Kohustuslikud", olid kergesti lahendatavad. Ekraanipaigutuse väljamõtlemine oli keeruline. „Kohustuslikuks“ märgitud probleemid olid kergesti lahendatavad. Mudel valiti välja suuremate raskusteta.
 
-# Diagram
+# Diagramm
 ```mermaid
 classDiagram
     class Klient {
@@ -71,3 +71,12 @@ classDiagram
     Menüü "1" -- "*" Film
 
 ```
+
+### Vastused küsimustele
+
+* **Mida näitas diff pärast ümbernimetamist?**
+  Diff näitas täpset tekstilist muutust: punasega oli märgitud vana klassinimi (nt `Klient`) ja rohelisega uus nimi (nt `Jalgratas` või `Kasutaja`), võimaldades täpselt näha, millist teksti reas muudeti.
+* **Mida oleks näidanud diff, kui oleksite muutnud draw.io PNG-faili?**
+  PNG-pildi puhul oleks diff näidanud vaid seda, et binaarfail on asendatud uuega, ilma et oleks saanud visuaalselt või tekstiliselt jälgida, millised konkreetsed klassid või seosed pildil muutusid.
+* **Kumb on parem, kui kaks inimest muudavad diagrammi — ja miks?**
+  Mermaid on palju parem, sest see põhineb tekstil. Tekstipõhiseid muudatusi saab Git automatiseeritult liita (merge) ja konfliktide korral rida-rea haaval lahendada, samal ajal kui kahe binaarse PNG-faili korraga muutmisel tekib lahendamatu konflikt.
