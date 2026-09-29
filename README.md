@@ -42,6 +42,7 @@ Valisime inkrementaalse mudeli, sest teame, mida kasutajad täpselt tahavad, nin
 Tahvel alguses ja lõpus: `protsess/board-start.png ja protsess/board-end.png `. Ekraani paigutuse väljamõtlemine oli keeruline. Probleemid, mis olid märgitud kui "Kohustuslikud", olid kergesti lahendatavad. Ekraanipaigutuse väljamõtlemine oli keeruline. „Kohustuslikuks“ märgitud probleemid olid kergesti lahendatavad. Mudel valiti välja suuremate raskusteta.
 
 # Diagram
+```mermaid
 classDiagram
   class Ratas {
     +int nr
@@ -49,3 +50,4 @@ classDiagram
     +võta()
     +tagasta()
   }
+```
