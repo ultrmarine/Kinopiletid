@@ -44,10 +44,30 @@ Tahvel alguses ja lõpus: `protsess/board-start.png ja protsess/board-end.png `.
 # Diagram
 ```mermaid
 classDiagram
-  class Ratas {
-    +int nr
-    +String seisund
-    +võta()
-    +tagasta()
-  }
+    class Klient {
+        -string User
+        -string Parool
+        +LogIn()
+        +LogOut()
+        +IseklikeSoodustamine()
+        +ParooliMuutumine()
+    }
+
+    class Menüü {
+        -List Filmid
+        -datetime Kuupäev
+        +FimideOtsing()
+        +FilmideSoovituste()
+    }
+
+    class Film {
+        -String Nimi
+        -double Hind
+        -double kestus
+        +Broneerimine()
+    }
+
+    Klient "*" -- "1" Menüü
+    Menüü "1" -- "*" Film
+
 ```
