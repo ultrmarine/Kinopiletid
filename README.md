@@ -78,5 +78,5 @@ classDiagram
   Diff näitas täpset tekstilist muutust: punasega oli märgitud vana klassinimi (nt `Klient`) ja rohelisega uus nimi (nt `Jalgratas` või `Kasutaja`), võimaldades täpselt näha, millist teksti reas muudeti.
 * **Mida oleks näidanud diff, kui oleksite muutnud draw.io PNG-faili?**
   PNG-pildi puhul oleks diff näidanud vaid seda, et binaarfail on asendatud uuega, ilma et oleks saanud visuaalselt või tekstiliselt jälgida, millised konkreetsed klassid või seosed pildil muutusid.
-* **Kumb on parem, kui kaks inimest muudavad diagrammi — ja miks?**
+* **Kumb on parem, kui kaks inimest muudavad diagrammi - ja miks?**
   Mermaid on palju parem, sest see põhineb tekstil. Tekstipõhiseid muudatusi saab Git automatiseeritult liita (merge) ja konfliktide korral rida-rea haaval lahendada, samal ajal kui kahe binaarse PNG-faili korraga muutmisel tekib lahendamatu konflikt.
