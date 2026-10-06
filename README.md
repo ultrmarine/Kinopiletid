@@ -86,6 +86,19 @@ sequenceDiagram
     Rattarent-->>Kasutaja: "Proovi hiljem uuesti"
   end
 ```
+
+Kui kasutaja, tahan logida sisse Smart-ID-ga, et ma ei peaks parooli meeles pidama.
+
+Vastuvõtukriteeriumid:
+- Sisselogimisekraanil on väli isikukoodi sisestamiseks ja nupp "Logi sisse Smart-ID-ga".
+- Pärast õnnestunud sisselogimist suunatakse kasutaja pealehele ja ekraanil on näha tervitustekst kasutaja nimega (nt "Tere, Anna").
+
+Kui kasutaja, tahan Smart-ID vea korral selget teadet, et ma teaksin, mida teha.
+
+Vastuvõtukriteeriumid:
+- Kui Smart-ID ei vasta 10 sekundi jooksul või kasutaja vastab "EI" (katkestab), kuvatakse ekraanile selge teade: "Proovi hiljem uuesti".
+- Kasutajale jääb ekraanile võimalus logida sisse alternatiivsel viisil (näiteks parooliga).
+- 
 ## Projekti tüübid 
 
 ### (a) Uus funktsioon: isikupärast soodustuste süsteem
