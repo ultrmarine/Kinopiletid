@@ -96,7 +96,11 @@ classDiagram
 - Mis jääb samaks: Põhiklasse ja teisi mitte-sisselogimisekraane ei tohiks puudutada.
 - Peamine risk: Kasutajaandmete leke ebaõige integreerimise tõttu
 - Esimene samm: Töötame struktuuri kallal, et mõista, kuidas Smart ID koodi integreerida.
-- 
+
+Saadame: Osa krüpteeritud võtmest saadetakse Smart ID süsteemi.
+
+Saame vastu: Saame neilt kinnituse kasutaja sisselogimise kehtivuse või kehtetuse kohta.
+
 ### Vastused küsimustele
 
 * **Mida näitas diff pärast ümbernimetamist?**
