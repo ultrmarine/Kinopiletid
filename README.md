@@ -88,6 +88,13 @@ classDiagram
 - Peamine risk: Kõrge hind ning ka pikaajaline programmi ülekandmine
 - Esimene samm: Valime, millisele platvormile me üle läheme
 
+### (c) Uus funktsioon: Smart-ID sisselogimine
+- Tüüp: liidestamine.
+- Mis muutub: Sisselogimisekraan muutub ja nüüd saate sisse logida Smart-ID kaudu.
+- Mis jääb samaks: Põhiklasse ja teisi mitte-sisselogimisekraane ei tohiks puudutada.
+- Peamine risk: Kasutajaandmete leke ebaõige integreerimise tõttu
+- Esimene samm: Töötame struktuuri kallal, et mõista, kuidas Smart ID koodi integreerida.
+- 
 ### Vastused küsimustele
 
 * **Mida näitas diff pärast ümbernimetamist?**
