@@ -71,6 +71,22 @@ classDiagram
     Menüü "1" -- "*" Film
 
 ```
+## Projekti tüübid 
+
+
+## 1.	Uus haru projekti-tuubid. README-sse uus jaotis ## Projekti tüübid (pärast „Diagrammid”).
+2.	Iga stsenaariumi kohta viis rida, täpselt sellises vormis:
+ 	### (a) Uus funktsioon: <nimi>
+- Tüüp: olemasoleva süsteemi arendus
+- Mis muutub: <millised klassid / ekraanid / issue'd>
+- Mis jääb samaks: <mida ei tohi puutuda>
+- Peamine risk: <konkreetselt>
+- Esimene samm: <mida teete enne, kui kirjutate rea koodi>
+3.	Stsenaariumis (a) vaadake oma klassidiagrammi: millised klassid muutuvad? Kas tuleb uus klass? Kirjutage need nimeliselt.
+4.	Stsenaariumis (b) otsustage: korraga või tükkhaaval? Kui tükkhaaval — mis läheb esimesena ja miks? Millised andmed peavad üle minema (loetlege tabelid / klassid)?
+5.	Stsenaariumis (c) kirjutage kaks rida juurde: - Saadame: … ja - Saame vastu: ….
+6.	Commit. Pull request. Teine paariline vaatab üle ja jätab ühe küsimuse iga stsenaariumi kohta (kokku 3 kommentaari), siis Approve, Merge.
+
 ### Vastused küsimustele
 
 * **Mida näitas diff pärast ümbernimetamist?**
