@@ -71,6 +71,36 @@ classDiagram
     Menüü "1" -- "*" Film
 
 ```
+## Projekti tüübid 
+
+### (a) Uus funktsioon: isikupärast soodustuste süsteem
+- Tüüp: olemasoleva süsteemi arendus
+- Mis muutub: Muuda profiiliekraani; allahindluse muutuja ilmub kliendiklassi.
+- Mis jääb samaks: Menüü ja filmiklass jäävad samaks, nagu ka teised ekraanid.
+- Peamine risk: Allahindluse arvutamise risk
+- Esimene samm: Kaaluge allahindluse arvutamist, mis ei kahjusta teie kasumit.
+
+
+### (b) Migratioon: PHP + PERL + HTML 3.2 -> Node.js + React + JS
+- Tüüp: migratioon
+- Mis muutub: Muudetakse kogu programmi koodi
+- Mis jääb samaks: ekraanid, disain ja klassid jäävad samaks
+- Peamine risk: Kõrge hind ning ka pikaajaline programmi ülekandmine
+- Esimene samm: Valime, millisele platvormile me üle läheme
+
+  Me kanname kõik üle osade kaupa. Esmalt kantakse üle profiil, kuna see on programmi väikseim osa ja selle ülekandmine ei tekita raskusi. Üle tuleb kanda järgmised klassid: menüü, filmid ja profiil.
+
+### (c) Liidestamine: Smart-ID sisselogimine
+- Tüüp: liidestamine.
+- Mis muutub: Sisselogimisekraan muutub ja nüüd saate sisse logida Smart-ID kaudu.
+- Mis jääb samaks: Põhiklasse ja teisi mitte-sisselogimisekraane ei tohiks puudutada.
+- Peamine risk: Kasutajaandmete leke ebaõige integreerimise tõttu
+- Esimene samm: Töötame struktuuri kallal, et mõista, kuidas Smart ID koodi integreerida.
+
+Saadame: Osa krüpteeritud võtmest saadetakse Smart ID süsteemi.
+
+Saame vastu: Saame neilt kinnituse kasutaja sisselogimise kehtivuse või kehtetuse kohta.
+
 ### Vastused küsimustele
 
 * **Mida näitas diff pärast ümbernimetamist?**
