@@ -71,9 +71,6 @@ classDiagram
     Menüü "1" -- "*" Film
 
 ```
-## Projekti tüübid
-
-
 ### Vastused küsimustele
 
 * **Mida näitas diff pärast ümbernimetamist?**
