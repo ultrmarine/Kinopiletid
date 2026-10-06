@@ -71,6 +71,8 @@ classDiagram
     Menüü "1" -- "*" Film
 
 ```
+## Projekti tüübid
+
 
 ### Vastused küsimustele
 
