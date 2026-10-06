@@ -87,6 +87,7 @@ classDiagram
 - Mis jääb samaks: ekraanid, disain ja klassid jäävad samaks
 - Peamine risk: Kõrge hind ning ka pikaajaline programmi ülekandmine
 - Esimene samm: Valime, millisele platvormile me üle läheme
+Me kanname kõik üle osade kaupa. Esmalt kantakse üle profiil, kuna see on programmi väikseim osa ja selle ülekandmine ei tekita raskusi. Üle tuleb kanda järgmised klassid: menüü, filmid ja profiil.
 
 ### (c) Uus funktsioon: Smart-ID sisselogimine
 - Tüüp: liidestamine.
