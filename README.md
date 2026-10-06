@@ -81,7 +81,7 @@ classDiagram
 - Esimene samm: Kaaluge allahindluse arvutamist, mis ei kahjusta teie kasumit.
 
 
-### (b) Uus funktsioon: migratioon JavaScript
+### (b) Migratioon: PHP + PERL + HTML 3.2 -> Node.js + React + JS
 - Tüüp: migratioon
 - Mis muutub: Muudetakse kogu programmi koodi
 - Mis jääb samaks: ekraanid, disain ja klassid jäävad samaks
@@ -90,7 +90,7 @@ classDiagram
 
   Me kanname kõik üle osade kaupa. Esmalt kantakse üle profiil, kuna see on programmi väikseim osa ja selle ülekandmine ei tekita raskusi. Üle tuleb kanda järgmised klassid: menüü, filmid ja profiil.
 
-### (c) Uus funktsioon: Smart-ID sisselogimine
+### (c) Liidestamine: Smart-ID sisselogimine
 - Tüüp: liidestamine.
 - Mis muutub: Sisselogimisekraan muutub ja nüüd saate sisse logida Smart-ID kaudu.
 - Mis jääb samaks: Põhiklasse ja teisi mitte-sisselogimisekraane ei tohiks puudutada.
