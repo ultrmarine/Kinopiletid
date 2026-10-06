@@ -80,6 +80,14 @@ classDiagram
 - Peamine risk: Allahindluse arvutamise risk
 - Esimene samm: Kaaluge allahindluse arvutamist, mis ei kahjusta teie kasumit.
 
+
+### (b) Uus funktsioon: migratioon JavaScript
+- Tüüp: migratioon
+- Mis muutub: Muudetakse kogu programmi koodi
+- Mis jääb samaks: ekraanid, disain ja klassid jäävad samaks
+- Peamine risk: Kõrge hind ning ka pikaajaline programmi ülekandmine
+- Esimene samm: Valime, millisele platvormile me üle läheme
+
 ### Vastused küsimustele
 
 * **Mida näitas diff pärast ümbernimetamist?**
