@@ -80,6 +80,7 @@ sequenceDiagram
   
   alt Edukas sisselogimine
     SmartID-->>Rattarent: OK, nimi, kinnitatud: jah
+    Rattarent-->>Kasutaja: tere, Anna
   else Smart-ID ei vasta 10 s või vasta "EI"
     SmartID-->>Rattarent: Viga / kinnitatud: ei
     Rattarent-->>Kasutaja: "Proovi hiljem uuesti"
