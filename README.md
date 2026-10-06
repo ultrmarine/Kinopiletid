@@ -71,6 +71,20 @@ classDiagram
     Menüü "1" -- "*" Film
 
 ```
+
+```mermaid
+sequenceDiagram
+  Kasutaja->>Rattarent: vajutab "Logi sisse Smart-ID-ga", isikukood
+  Rattarent->>SmartID: isikukood, osa krüpteeritud võtmest
+  SmartID-->>Kasutaja: teade telefonis, PIN
+  
+  alt Edukas sisselogimine
+    SmartID-->>Rattarent: OK, nimi, kinnitatud: jah
+  else Smart-ID ei vasta 10 s või vasta "EI"
+    SmartID-->>Rattarent: Viga / kinnitatud: ei
+    Rattarent-->>Kasutaja: "Proovi hiljem uuesti"
+  end
+```
 ## Projekti tüübid 
 
 ### (a) Uus funktsioon: isikupärast soodustuste süsteem
