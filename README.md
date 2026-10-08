@@ -144,8 +144,11 @@ Meie Kinopiletid-süsteemi jaoks valime draw.io, kuna see on lihtsa kasutajaliid
 ## Projekti kaart
 
 **Tellija:** Kino direktor
+
 **Probleem:** Kliendid soovivad jätta tagasisidet otse veebilehel. Hetkel pole meil sellist süsteemi klientidele. See süsteem peaks toimima kõigi filmide puhul.
-**Eesmärk:** Projekti lõppedes peaks meie veebilehe külastajate arv suurenema. 8
+
+**Eesmärk:** Projekti lõppedes peaks meie veebilehe külastajate arv suurenema. 8. märts
+
 **Tulemus:** Kliendid saavad filme hinnata ja nende hinnanguid vaadata
 
 **Ulatus SEES:**
