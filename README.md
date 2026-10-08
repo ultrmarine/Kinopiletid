@@ -141,3 +141,36 @@ Saame vastu: Saame neilt kinnituse kasutaja sisselogimise kehtivuse või kehtetu
 ## Vahendid
 Meie Kinopiletid-süsteemi jaoks valime draw.io, kuna see on lihtsa kasutajaliidese ja laia ekspordivaliku tõttu mugav kasutada. Me ei vali Visual Paradigmi, kuna selle kasutajaliides ei ole intuitiivne ja enamikule kasutajatele arusaamatu. Kui meeskond oleks suurem, valiksime PlantUML-i, kuna see võimaldab diagramme mugavalt suurendada ulatuslikeks massiivideks.
 
+## Projekti kaart
+
+**Tellija:** Kino direktor
+**Probleem:** Kliendid soovivad jätta tagasisidet otse veebilehel. Hetkel pole meil sellist süsteemi klientidele. See süsteem peaks toimima kõigi filmide puhul.
+**Eesmärk:** Projekti lõppedes peaks meie veebilehe külastajate arv suurenema. 8
+**Tulemus:** Kliendid saavad filme hinnata ja nende hinnanguid vaadata
+
+**Ulatus SEES:**
+
+Andmebaasi laiendamine, kus hakatakse säilitama filmide hinnanguid.
+
+Võimalus anda filmidele hinnanguid.
+
+Võimalus filtreerida tulemusi hinnangute järgi.
+
+**Ulatus VÄLJAS:** 
+
+Filmidele on antud hinnangud.
+
+Kasutada allahindluste süsteemi.
+
+Kasutada kohtade broneerimise süsteemi.
+
+**Kolmnurk:** aeg: fikseeritud; raha/inimesed: keskmised mahud; ulatus: suur. Fikseeritud on: üks
+**Rollid:** tellija — Martin; projektijuht — Miron; meeskond — Miron ja Martin; huvipooled — Miron
+
+| Risk | Tõenäosus | Mõju | Mida teeme enne |
+|---|---|---|---|
+| Ebaõigete arvustuste lisamine  | 3 | 3 | Filmi saab hinnata ainult siis, kui selle jaoks on ostetud pilet |
+| Hindede keskmine on vale. | 1 | 3 | Keskmise hinde korduv kontrollimine |
+| Vead konkreetsetele kasutajatele suunatud soovitustes, mis tulenevad filmide hinnangute arvessevõtmisest  | 3 | 2 | Ära võta arvesse filmide üldhinnanguid |
+
+**Edukriteerium:** Vaadab, kas klientide arv on kasvanud või mitte.
