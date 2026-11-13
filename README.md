@@ -177,3 +177,32 @@ Kasutada kohtade broneerimise süsteemi.
 | Vead konkreetsetele kasutajatele suunatud soovitustes, mis tulenevad filmide hinnangute arvessevõtmisest  | 3 | 2 | Ära võta arvesse filmide üldhinnanguid |
 
 **Edukriteerium:** Vaadab, kas klientide arv on kasvanud või mitte.
+
+
+**Kino infosüsteem:**
+
+Kino kasutab seansside kohtade broneerimissüsteemi. Klient saab valida sobiva seansi ja broneerida koha.
+Nüüd soovib kino süsteemi täiustada:
+1. Kliendil peab olema võimalus broneerida koht mobiiltelefonist.
+2. Kliendid peavad nägema hoiatust epilepsia kohta filmis.
+3. Kinotöötajal peab olema võimalus muuta igapäevaste seansside ajakava.
+4. Süsteem peab saatma kliendile teate, kui tema broneering on kinnitatud.
+
+Tellija soovib, et muudatused oleksid kasutusvalmis kahe kuu jooksul.
+
+1. Millised on selle projekti peamised nõuded?
+2. Millised neist on funktsionaalsed ja millised mittefunktsionaalsed?
+3. Millised kasutajad või rollid on süsteemis olemas?
+4. Millist arendusmudelit kasutaksite ja miks?
+5. Milliseid olemasoleva süsteemi osi tuleks muuta või täiendada?
+
+**Klient soovib teha muudatusi:** 
+1. Selle projekti peamised nõuded on projekti kohandamine mobiiltelefonidele ning olemasoleva süsteemi täiustamine.
+2. Funktsionaalsed – võimalus broneerida kohti mobiiltelefonist ja töötaja võimalus muuta igapäevaste seansside ajakava.
+   Mittefunktsionaalsed – hoiatus epilepsia kohta ja teade kliendile broneeringu kinnitamise kohta.
+3. Klient, töötaja ja süsteemiadministraator. 
+4. Me valiksime Scrumi, kuna see võimaldab saada tagasisidet enamiku arendusetappide kohta arendustöö käigus.
+5. Kasutajaliidest tuleks täiendada, lisades mobiiliversiooni. Samuti tuleks filmide andmebaasi täiendada märkega epilepsiaohu kohta.
+Samuti tuleks muuta funktsioonide süsteemi, lisades teavituste saatmise funktsiooni ja epilepsia esinemise kontrollimise funktsiooni.
+
+Seda projekti on täiesti võimalik viia lõpule kahe kuu jooksul, kui rahastamine on piisav ja arenduse käigus ei tehta liiga palju muudatusi.
